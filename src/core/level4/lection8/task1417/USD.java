@@ -1,0 +1,12 @@
+package core.level4.lection8.task1417;
+
+public class USD extends Money {
+    public USD(double amount) {
+        super(amount);
+    }
+
+    @Override
+    public String getCurrencyName() {
+        return "USD";
+    }
+}
